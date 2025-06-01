@@ -4,9 +4,7 @@ You open Maya and always presented with the new blank scene. It's repetitive, yo
 
 Next... You’re working on a new scene or shot, and all you want is a simple background, maybe a couple of lights and definitely a camera. But you have to create and set them up from scratch every time, again and again and again! It's frustrating. That’s how I felt… So I created a new tool to make things quicker.
 
-Scene Builder: A go-to tool for fast scene and shot setup. Choose from six customisable backdrops or use an image plane. Drop in a three-point lighting rig or a flexible camera rig—everything you need to get started, fast.
-
-Scene Builder comes in two variations:
+Scene Builder: A go-to tool for fast scene and shot setup. Choose from six customisable backdrops or use an image plane. Drop in a three-point lighting rig or a flexible camera rig—everything you need to get started, fast. Scene Builder comes in two variations:
 
 Plus - all features
 6 backdrops, Image plane, 4 Materials, Material settings, Faded edges, 3 Point light rig, Light rig presets, Light rig settings, Camera rig, Camera settings, Depth of field control, Render presets, Render Settings, Global Scale/Rotate.
@@ -59,6 +57,7 @@ INSTALLATION
 Copy this file into your maya scripts directory, for example:
 
 WIN - C:/Documents and Settings/user/My Documents/maya/scripts/scene_builder_lite.py
+
 MACOS - /Users/user/Library/Preferences/Autodesk/maya/scripts/scene_builder_lite.py
 
 Run the tool from python command line or shelf button by 
@@ -73,6 +72,7 @@ ICON
 Copy the icon JPG (scene_builder_lite_icon.jpg) to the icon folder in your maya prefs, for example:
 
 WIN - C:/Documents and Settings/user/My Documents/maya/2024/prefs/icons/scene_builder_lite_icon.jpg
+
 MACOS - /Users/name/Library/Preferences/Autodesk/maya/2024/prefs/icons/scene_builder_lite_icon.jpg
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
