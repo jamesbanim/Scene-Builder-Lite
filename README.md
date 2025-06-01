@@ -27,3 +27,63 @@ https://vimeo.com/1085938992/5e66e9c2e5
 
 Read the documentation:
 https://www.jamesboyle.studio/scene-builder-documentation
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SCENE BUILDER TOOL (scene_builder_lite.py)
+Version 1.0 / 29/05/25
+
+Tool created by James Boyle (@JamesBAnim)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Copyright (c) 2025 James Boyle
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+INSTALLATION
+Copy this file into your maya scripts directory, for example:
+
+WIN - C:/Documents and Settings/user/My Documents/maya/scripts/scene_builder_lite.py
+MACOS - /Users/user/Library/Preferences/Autodesk/maya/scripts/scene_builder_lite.py
+
+Run the tool from python command line or shelf button by 
+importing the module, and then calling the primary function:
+
+      import scene_builder_lite
+      scene_builder_lite.run()
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ICON
+Copy the icon JPG (scene_builder_lite_icon.jpg) to the icon folder in your maya prefs, for example:
+
+WIN - C:/Documents and Settings/user/My Documents/maya/2024/prefs/icons/scene_builder_lite_icon.jpg
+MACOS - /Users/name/Library/Preferences/Autodesk/maya/2024/prefs/icons/scene_builder_lite_icon.jpg
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+COMPATIBILITY
+Python 3
+MEL
+Maya 2022 - 2025
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+DESCRIPTION
+Scene Builder is a streamlined tool for rapid scene and shot setup in Maya. Choose from 
+a curved backdrop or load an image plane. Add a three-point light rig and a flexible camera system — 
+everything you need to jumpstart your scene and shot workflow.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
