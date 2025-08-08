@@ -11,4 +11,3 @@ importing the module, and then calling the primary function:
 
 import scene_builder_lite
 scene_builder_lite.run()
-

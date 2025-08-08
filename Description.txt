@@ -1,7 +1,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 SCENE BUILDER TOOL (scene_builder_lite.py)
-Version 1.0 / 29/05/25
+Version 1.1.1 / 08/08/25
 
 Tool created by James Boyle (@JamesBAnim)
 
@@ -31,29 +31,39 @@ MACOS - /Users/user/Library/Preferences/Autodesk/maya/scripts/scene_builder_lite
 Run the tool from python command line or shelf button by 
 importing the module, and then calling the primary function:
 
-      import scene_builder_lite
-      scene_builder_lite.run()
+import scene_builder_lite
+scene_builder_lite.run()
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 ICON
 Copy the icon JPG (scene_builder_lite_icon.jpg) to the icon folder in your maya prefs, for example:
 
-WIN - C:/Documents and Settings/user/My Documents/maya/2024/prefs/icons/scene_builder_lite_icon.jpg
-MACOS - /Users/name/Library/Preferences/Autodesk/maya/2024/prefs/icons/scene_builder_lite_icon.jpg
+WIN - C:/Documents and Settings/user/My Documents/maya/{maya version}/prefs/icons/scene_builder_lite_icon.jpg
+MACOS - /Users/name/Library/Preferences/Autodesk/maya/{maya version}/prefs/icons/scene_builder_lite_icon.jpg
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 COMPATIBILITY
-Python 3
+Python 2 and 3
 MEL
-Maya 2022 - 2025
+Maya 2018 - 2026
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 DESCRIPTION
 Scene Builder is a streamlined tool for rapid scene and shot setup in Maya. Choose from 
-a curved backdrop or load an image plane. Add a three-point light rig and a flexible camera system — 
+six backdrops or load an image plane. Add a three-point light rig and a flexible camera system — 
 everything you need to jumpstart your scene and shot workflow.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+REVISIONS
+
+Revision 0: 29/05/25 : First release (v1.0.0).
+
+Revision 1: 08/08/25 : Second release (v1.1.1).
+                       Fix - Rewrote codebase to support Python 2 (Maya 2018 to 2020).
+                       Fix - Code clean up, removed redundant code.
+                       Fix - Reset Grid and New Gradient material functionality.
+                       Fix - Consistant annotation wording.
+                       Fix - Attribute editor staying open after launching Scene Builder.
