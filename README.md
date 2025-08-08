@@ -32,7 +32,7 @@ https://www.jamesboyle.studio/scene-builder-documentation
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 SCENE BUILDER TOOL (scene_builder_lite.py)
-Version 1.0 / 29/05/25
+Version 1.1.1 / 08/08/25
 
 Tool created by James Boyle (@JamesBAnim)
 
@@ -71,16 +71,16 @@ importing the module, and then calling the primary function:
 ICON
 Copy the icon JPG (scene_builder_lite_icon.jpg) to the icon folder in your maya prefs, for example:
 
-WIN - C:/Documents and Settings/user/My Documents/maya/2024/prefs/icons/scene_builder_lite_icon.jpg
+WIN - C:/Documents and Settings/user/My Documents/maya/{maya version}/prefs/icons/scene_builder_lite_icon.jpg
 
-MACOS - /Users/name/Library/Preferences/Autodesk/maya/2024/prefs/icons/scene_builder_lite_icon.jpg
+MACOS - /Users/name/Library/Preferences/Autodesk/maya/{maya version}/prefs/icons/scene_builder_lite_icon.jpg
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 COMPATIBILITY
-Python 3
+Python 2 and 3
 MEL
-Maya 2022 - 2025
+Maya 2018 - 2026
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
